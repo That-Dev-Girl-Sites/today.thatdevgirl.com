@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Special+Elite&display=swap');
+
+/**
+ * Font variables.
+ */
+
+$font-h1: 'Special Elite', Arial, sans-serif;
+$font-p: Comfortaa, Arial, sans-serif;
+
+
+/**
+ * Typography styles.
+ */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+h1 {
+  color: $gray;
+  font-family: $font-h1;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+
+  @media screen and ( min-width: 640px ) {
+    font-size: 1.5rem;
+  }
+
+  @media screen and ( min-width: 960px ) {
+    margin-bottom: 1.25rem;
+  }
+}
+
+p {
+  color: $black;
+  font-family: $font-p;
+  font-size: 3rem;
+
+  @media screen and ( min-width: 640px ) {
+    font-size: 4rem;
+  }
+
+  @media screen and ( min-width: 960px ) {
+    font-size: 5rem;
+  }
+}
